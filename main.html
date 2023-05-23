@@ -7,10 +7,42 @@
 </head>
 
 <body>
+	<form action="">
+		<div>
+			<label for="name">Name</label><br>
+			<input type="text" id="name" placeholder="Name">
+		</div>
+		<div>
+			<label for="phone">Phone Number</label><br>
+			<input type="text" id="phone" placeholder="Phone Number">
+		</div>
+		<div>
+			<label for="address">Address</label><br>
+			<input type="text" id="address" placeholder="Address">
+		</div>
+		<div>
+			<label for="checkbox">Have you ever lived with a Dog before</label><br>
+			<input type="checkbox" id="checkbox" value="Have you ever lived with a Dog before">
+		</div>
+		<div>
+			<label for="multiSelect">Preferred Breeds (Select at least three)</label><br>
+			<select id="multiSelect" name="breeds" multiple required>
+				<option value="labrador">Labrador Retriever</option>
+				<option value="golden">Golden Retriever</option>
+				<option value="german">German Shepherd</option>
+				<option value="poodle">Poodle</option>
+				<option value="bulldog">Bulldog</option>
+			</select>
+		</div>
+		<div>
+			<button type="submit" id="submit" value="Submit">Submit</button>
+		</div>
+	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
 
 </body>
+</html>	
 
 </html>
